@@ -2,7 +2,6 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Optional
 
-libro = {}
 
 class Libro(BaseModel):
     id: int
@@ -10,13 +9,20 @@ class Libro(BaseModel):
     escritor: str
     capitulos: Optional[int]
 
-def crearLibro(id,titulo,escritor,capitulos):
-    libro[id] = {"id":id,"titulo":titulo,"escritor":escritor,"capitulos":capitulos}
+libro = {}
 
-crearLibro(1,"Genesis","Moises",67)
-crearLibro(2,"Exodo","Moises",43)
-crearLibro(3,"Levitico","Moises",21)
-crearLibro(4,"Deuteronomio","Moises",23)
+def crearLibro(libro,id,titulo,escritor,capitulos):
+    libro[id] = {
+        "titulo": titulo,
+        "escritor": escritor,
+        "capitulos": capitulos
+    }
+    return libro
+
+crearLibro(libro,1,"Genesis","Moises",67)
+crearLibro(libro,2,"Exodo","Moises",43)
+crearLibro(libro,3,"Levitico","Moises",21)
+crearLibro(libro,4,"Deuteronomio","Moises",23)
 print(libro)
 app = FastAPI(debug=True)
 
