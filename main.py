@@ -17,11 +17,12 @@ crearLibro(1,"Genesis","Moises",67)
 crearLibro(2,"Exodo","Moises",43)
 crearLibro(3,"Levitico","Moises",21)
 print(libro)
-app = FastAPI()
+app = FastAPI(debug=True)
 
 @app.get("/")
 def index():
-    return libro
+    return {"mensaje": "conectado"}
+    #return libro
 
 @app.get("/libros/{id}")
 def detalleLibro(id: int):
@@ -31,3 +32,4 @@ def detalleLibro(id: int):
 """@app.post("/libros")
 def insertarLibro(libro:Libro):
     return {"message":f"Libro {libro.titulo} insertado"}"""
+    
