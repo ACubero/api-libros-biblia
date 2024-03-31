@@ -16,13 +16,14 @@ def crearLibro(id,titulo,escritor,capitulos):
 crearLibro(1,"Genesis","Moises",67)
 crearLibro(2,"Exodo","Moises",43)
 crearLibro(3,"Levitico","Moises",21)
+crearLibro(4,"Deuteronomio","Moises",23)
 print(libro)
 app = FastAPI(debug=True)
 
 @app.get("/")
 def index():
-    return {"mensaje": "conectado"}
-    #return libro
+    #return {"mensaje": "conectado"}
+    return libro
 
 @app.get("/libros/{id}")
 def detalleLibro(id: int):
