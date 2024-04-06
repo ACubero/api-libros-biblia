@@ -2,38 +2,44 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import Optional
 
+import pandas as pd
+import json
 
-class Libro(BaseModel):
-    id: int
-    titulo: str
-    escritor: str
-    capitulos: Optional[int]
+def excel_a_json(archivo_excel, hoja_nombre, json_salida):
+    # Leer el archivo Excel en un DataFrame de Pandas
+    datos_excel = pd.read_excel(archivo_excel, sheet_name=hoja_nombre)
+    
+    # Convertir el DataFrame a un diccionario y luego a JSON
+    datos_json = datos_excel.to_dict(orient='records')
+    
+    # Escribir el JSON a un archivo
+    with open(json_salida, 'w') as archivo:
+        json.dump(datos_json, archivo, indent=4)
 
-libro = {}
+# Nombre del archivo Excel de entrada
+archivo_excel = './data/data.xlsx'
 
-def crearLibro(libro,id,titulo,escritor,capitulos):
-    libro[id] = {
-        "titulo": titulo,
-        "escritor": escritor,
-        "capitulos": capitulos
-    }
-    return libro
+# Nombre de la hoja dentro del archivo Excel
+hoja_nombre = 'Libros'
 
-crearLibro(libro,1,"Genesis","Moises",67)
-crearLibro(libro,2,"Exodo","Moises",43)
-crearLibro(libro,3,"Levitico","Moises",21)
-crearLibro(libro,4,"Deuteronomio","Moises",23)
-print(libro)
+# Nombre del archivo JSON de salida
+json_salida = './data/data.json'
+
+# Llamar a la función para convertir el archivo Excel a JSON
+excel_a_json(archivo_excel, hoja_nombre, json_salida)
+
+print("Archivo JSON generado con éxito.")
+
 app = FastAPI(debug=True)
 
 @app.get("/")
 def index():
     #return {"mensaje": "conectado"}
-    return libro
+    return json_salida
 
-@app.get("/libros/{id}")
-def detalleLibro(id: int):
-    return libro[id]
+#@app.get("/libros/{id}")
+#def detalleLibro(id: int):
+#    return json[id]
 
 #Para hacer un post
 """@app.post("/libros")

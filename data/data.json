@@ -1,0 +1,50 @@
+[
+    {
+        "Id": 1,
+        "Libro": "G\u00e9nesis",
+        "Escritor": "Mois\u00e9s",
+        "Capitulos": NaN
+    },
+    {
+        "Id": 2,
+        "Libro": "Exodo",
+        "Escritor": "Mois\u00e9s",
+        "Capitulos": NaN
+    },
+    {
+        "Id": 3,
+        "Libro": "Lev\u00edtico",
+        "Escritor": "Mois\u00e9s",
+        "Capitulos": NaN
+    },
+    {
+        "Id": 4,
+        "Libro": "N\u00fameros",
+        "Escritor": "Mois\u00e9s",
+        "Capitulos": NaN
+    },
+    {
+        "Id": 5,
+        "Libro": "Deuteronomio",
+        "Escritor": "Mois\u00e9s",
+        "Capitulos": NaN
+    },
+    {
+        "Id": 6,
+        "Libro": "Josu\u00e9",
+        "Escritor": "Josu\u00e9",
+        "Capitulos": NaN
+    },
+    {
+        "Id": 7,
+        "Libro": "Jueces",
+        "Escritor": "Samuel",
+        "Capitulos": NaN
+    },
+    {
+        "Id": 8,
+        "Libro": "Rut",
+        "Escritor": "Samuel",
+        "Capitulos": NaN
+    }
+]
