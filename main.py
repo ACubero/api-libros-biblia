@@ -30,12 +30,20 @@ excel_a_json(archivo_excel, hoja_nombre, json_salida)
 
 print("Archivo JSON generado con éxito.")
 
+def leer_json(ruta_json):
+    with open(ruta_json, 'r') as archivo:
+        datos_json = json.load(archivo)
+    return datos_json
+
+# Llamada a la función para leer el archivo JSON
+contenido_json = leer_json(json_salida)
+print(contenido_json)
 app = FastAPI(debug=True)
 
 @app.get("/")
 def index():
     #return {"mensaje": "conectado"}
-    return json_salida
+    return contenido_json
 
 #@app.get("/libros/{id}")
 #def detalleLibro(id: int):
