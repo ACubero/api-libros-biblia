@@ -3,48 +3,462 @@
         "Id": 1,
         "Libro": "G\u00e9nesis",
         "Escritor": "Mois\u00e9s",
-        "Capitulos": 1
+        "Capitulos": 50,
+        "Seccion": "Escrituras Hebreas"
     },
     {
         "Id": 2,
         "Libro": "Exodo",
         "Escritor": "Mois\u00e9s",
-        "Capitulos": 2
+        "Capitulos": 40,
+        "Seccion": "Escrituras Hebreas"
     },
     {
         "Id": 3,
         "Libro": "Lev\u00edtico",
         "Escritor": "Mois\u00e9s",
-        "Capitulos": 3
+        "Capitulos": 27,
+        "Seccion": "Escrituras Hebreas"
     },
     {
         "Id": 4,
         "Libro": "N\u00fameros",
         "Escritor": "Mois\u00e9s",
-        "Capitulos": 4
+        "Capitulos": 36,
+        "Seccion": "Escrituras Hebreas"
     },
     {
         "Id": 5,
         "Libro": "Deuteronomio",
         "Escritor": "Mois\u00e9s",
-        "Capitulos": 5
+        "Capitulos": 34,
+        "Seccion": "Escrituras Hebreas"
     },
     {
         "Id": 6,
         "Libro": "Josu\u00e9",
         "Escritor": "Josu\u00e9",
-        "Capitulos": 6
+        "Capitulos": 24,
+        "Seccion": "Escrituras Hebreas"
     },
     {
         "Id": 7,
         "Libro": "Jueces",
         "Escritor": "Samuel",
-        "Capitulos": 7
+        "Capitulos": 21,
+        "Seccion": "Escrituras Hebreas"
     },
     {
         "Id": 8,
         "Libro": "Rut",
         "Escritor": "Samuel",
-        "Capitulos": 8
+        "Capitulos": 4,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 9,
+        "Libro": "1 Samuel",
+        "Escritor": "Samuel; Gad; Nat\u00e1n",
+        "Capitulos": 31,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 10,
+        "Libro": "2 Samuel",
+        "Escritor": "Gad; Nat\u00e1n",
+        "Capitulos": 24,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 11,
+        "Libro": "1 Reyes",
+        "Escritor": "Jerem\u00edas",
+        "Capitulos": 22,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 12,
+        "Libro": "2 Reyes",
+        "Escritor": "Jerem\u00edas",
+        "Capitulos": 25,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 13,
+        "Libro": "1 Cr\u00f3nicas",
+        "Escritor": "Esdras",
+        "Capitulos": 29,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 14,
+        "Libro": "2 Cr\u00f3nicas",
+        "Escritor": "Esdras",
+        "Capitulos": 36,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 15,
+        "Libro": "Esdras",
+        "Escritor": "Esdras",
+        "Capitulos": 10,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 16,
+        "Libro": "Nehem\u00edas",
+        "Escritor": "Nehem\u00edas",
+        "Capitulos": 13,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 17,
+        "Libro": "Ester",
+        "Escritor": "Mardoqueo",
+        "Capitulos": 10,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 18,
+        "Libro": "Job",
+        "Escritor": "Mois\u00e9s",
+        "Capitulos": 42,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 19,
+        "Libro": "Salmos",
+        "Escritor": "David y otros",
+        "Capitulos": 150,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 20,
+        "Libro": "Proverbios",
+        "Escritor": "Salom\u00f3n; Agur; Lemuel",
+        "Capitulos": 31,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 21,
+        "Libro": "Eclesiast\u00e9s",
+        "Escritor": "Salom\u00f3n",
+        "Capitulos": 12,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 22,
+        "Libro": "El Cantar de los Cantares",
+        "Escritor": "Salom\u00f3n",
+        "Capitulos": 8,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 23,
+        "Libro": "Isa\u00edas",
+        "Escritor": "Isa\u00edas",
+        "Capitulos": 66,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 24,
+        "Libro": "Jerem\u00edas",
+        "Escritor": "Jerem\u00edas",
+        "Capitulos": 52,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 25,
+        "Libro": "Lamentaciones",
+        "Escritor": "Jerem\u00edas",
+        "Capitulos": 5,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 26,
+        "Libro": "Ezequiel",
+        "Escritor": "Ezequiel",
+        "Capitulos": 48,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 27,
+        "Libro": "Daniel",
+        "Escritor": "Daniel",
+        "Capitulos": 12,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 28,
+        "Libro": "Oseas",
+        "Escritor": "Oseas",
+        "Capitulos": 14,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 29,
+        "Libro": "Joel",
+        "Escritor": "Joel",
+        "Capitulos": 3,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 30,
+        "Libro": "Am\u00f3s",
+        "Escritor": "Am\u00f3s",
+        "Capitulos": 9,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 31,
+        "Libro": "Abd\u00edas",
+        "Escritor": "Abd\u00edas",
+        "Capitulos": 1,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 32,
+        "Libro": "Jon\u00e1s",
+        "Escritor": "Jon\u00e1s",
+        "Capitulos": 4,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 33,
+        "Libro": "Miqueas",
+        "Escritor": "Miqueas",
+        "Capitulos": 7,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 34,
+        "Libro": "Nah\u00fam",
+        "Escritor": "Nah\u00fam",
+        "Capitulos": 3,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 35,
+        "Libro": "Habacuc",
+        "Escritor": "Habacuc",
+        "Capitulos": 3,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 36,
+        "Libro": "Sofon\u00edas",
+        "Escritor": "Sofon\u00edas",
+        "Capitulos": 3,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 37,
+        "Libro": "Ageo",
+        "Escritor": "Ageo",
+        "Capitulos": 2,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 38,
+        "Libro": "Zacar\u00edas",
+        "Escritor": "Zacar\u00edas",
+        "Capitulos": 14,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 39,
+        "Libro": "Malaqu\u00edas",
+        "Escritor": "Malaqu\u00edas",
+        "Capitulos": 4,
+        "Seccion": "Escrituras Hebreas"
+    },
+    {
+        "Id": 40,
+        "Libro": "Mateo",
+        "Escritor": "Mateo",
+        "Capitulos": 28,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 41,
+        "Libro": "Marcos",
+        "Escritor": "Marcos",
+        "Capitulos": 16,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 42,
+        "Libro": "Lucas",
+        "Escritor": "Lucas",
+        "Capitulos": 24,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 43,
+        "Libro": "Juan",
+        "Escritor": "Juan",
+        "Capitulos": 21,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 44,
+        "Libro": "Hechos",
+        "Escritor": "Lucas",
+        "Capitulos": 28,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 45,
+        "Libro": "Romanos",
+        "Escritor": "Pablo",
+        "Capitulos": 16,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 46,
+        "Libro": "1 Corintios",
+        "Escritor": "Pablo",
+        "Capitulos": 16,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 47,
+        "Libro": "2 Corintios",
+        "Escritor": "Pablo",
+        "Capitulos": 13,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 48,
+        "Libro": "G\u00e1latas",
+        "Escritor": "Pablo",
+        "Capitulos": 6,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 49,
+        "Libro": "Efesios",
+        "Escritor": "Pablo",
+        "Capitulos": 6,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 50,
+        "Libro": "Filipenses",
+        "Escritor": "Pablo",
+        "Capitulos": 4,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 51,
+        "Libro": "Colosenses",
+        "Escritor": "Pablo",
+        "Capitulos": 4,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 52,
+        "Libro": "1 Tesalonicenses",
+        "Escritor": "Pablo",
+        "Capitulos": 5,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 53,
+        "Libro": "2 Tesalonicenses",
+        "Escritor": "Pablo",
+        "Capitulos": 3,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 54,
+        "Libro": "1 Timoteo",
+        "Escritor": "Pablo",
+        "Capitulos": 6,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 55,
+        "Libro": "2 Timoteo",
+        "Escritor": "Pablo",
+        "Capitulos": 4,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 56,
+        "Libro": "Tito",
+        "Escritor": "Pablo",
+        "Capitulos": 3,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 57,
+        "Libro": "Filem\u00f3n",
+        "Escritor": "Pablo",
+        "Capitulos": 1,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 58,
+        "Libro": "Hebreos",
+        "Escritor": "Pablo",
+        "Capitulos": 13,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 59,
+        "Libro": "Santiago",
+        "Escritor": "Santiago",
+        "Capitulos": 5,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 60,
+        "Libro": "1 Pedro",
+        "Escritor": "Pedro",
+        "Capitulos": 5,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 61,
+        "Libro": "2 Pedro",
+        "Escritor": "Pedro",
+        "Capitulos": 3,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 62,
+        "Libro": "1 Juan",
+        "Escritor": "Juan",
+        "Capitulos": 5,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 63,
+        "Libro": "2 Juan",
+        "Escritor": "Juan",
+        "Capitulos": 1,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 64,
+        "Libro": "3 Juan",
+        "Escritor": "Juan",
+        "Capitulos": 1,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 65,
+        "Libro": "Judas",
+        "Escritor": "Judas",
+        "Capitulos": 1,
+        "Seccion": "Escrituras Griegas"
+    },
+    {
+        "Id": 66,
+        "Libro": "Apocalipsis",
+        "Escritor": "Juan",
+        "Capitulos": 22,
+        "Seccion": "Escrituras Griegas"
     }
 ]
