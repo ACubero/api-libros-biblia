@@ -1,2 +1,3 @@
 venv
 stderr.log
+__pycache__
